@@ -2,6 +2,8 @@
 #define SORT_H
 
 #include <stddef.h>
+#include <stdio.h>
+#include <stdio.h>
 
 /**
  * enum bool - Enumeration of Boolean values.
@@ -14,7 +16,8 @@ typedef enum bool
 	true
 } bool;
 
-/**struct listint_s - Doubly linked list node
+/**
+ * struct listint_s - Doubly linked list node
  *
  * @n: Integer stored in the node
  * @prev: Pointer to the previous element of the list
